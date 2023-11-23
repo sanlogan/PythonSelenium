@@ -9,6 +9,9 @@ driver.get("https://www.automationpanda.com/")
 
 driver.find_element(By.ID,"menu-item-9").click()
 
-print(driver.find_element(By.XPATH,"/html/body/div[1]/div/div[1]/div/article/div/div[1]/div[1]").text)
+text = driver.find_element(By.XPATH,"/html/body/div[1]/div/div[1]/div/article/div/div[1]/div[1]").text
+
+print(text)
 
 driver.implicitly_wait(6000)
+
