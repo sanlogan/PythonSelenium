@@ -13,5 +13,9 @@ text = driver.find_element(By.XPATH,"/html/body/div[1]/div/div[1]/div/article/di
 
 print(text)
 
+#one more print for test
+
+print(text)
+
 driver.implicitly_wait(6000)
 
